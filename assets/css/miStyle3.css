@@ -1,0 +1,58 @@
+:root{
+    --color-fondo: #ebf687;
+    --font-familia:'Roboto', sans-serif;
+    --color-primario:#124F88;
+    --color-secundario:#F7C331;
+    --color_texto-inverso:white;
+    --color-texto:black;
+    --color-fondo-menu: #a1d3a1;/*#E5E5E5;*/
+    --color-fondo-section:	#f5deb3 ;/*#ffdead;*/
+    --color-fondo-menu-celu: #3A4460;
+    --color-fondo-busqueda: #e7e7e7; 	
+    --color-formulario:white;
+    --color-hover:#949c7c;
+    --color-hover-li:#0d0e27;
+    --color-fondo-boton: #bbcabd;
+}
+
+*{
+  box-sizing: border-box;  
+  margin: 0;
+  padding: 0;
+  background-color:   var(--color-fondo);
+  font-family: var(--font-familia);
+}
+
+
+body{
+    font-family: var(--font-familia);
+    font-size: 18px;
+    max-width: 100%;
+    min-height: 100vh;
+}
+
+
+
+/*
+.el1{
+  width: 200px;  
+  height: 200px;
+  margin: 50px;
+}
+.footer {
+    grid-area: FO;
+    background-color: var(--color-fondo-menu);
+}
+
+.grid-container {
+    display: grid;
+    gap: 10px;
+    grid-template:
+      "M"    50px
+      "S3"   500px
+      "FO"   50px;
+      margin: 5px;
+      overflow: hidden;
+    }
+  
+*/
